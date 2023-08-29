@@ -11,7 +11,7 @@ function Createmusic(props){
  )
 function checkStatus(){
   var p=props.path;
-  p="http://localhost:3000/"+p;
+  p="https://song-website.onrender.com/"+p;
   for( var i=0;i<props.length;i++){
     var x=document.getElementsByClassName('myAudio')[i]; 
     var z=x.getElementsByTagName('source')[0].src;
